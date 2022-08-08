@@ -74,3 +74,7 @@
 网络控制器：高通创锐讯QCA6174 802.11ac无线网络适配器
 
 `Network controller: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter`
+
+属于开箱即用的网卡驱动。
+
+（https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a）
