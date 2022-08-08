@@ -77,4 +77,4 @@
 
 属于开箱即用的网卡驱动。
 
-[说明](https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a)
+[说明]<https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
