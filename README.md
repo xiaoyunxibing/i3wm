@@ -78,3 +78,6 @@
 属于开箱即用的网卡驱动。
 
 说明 <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
+
+4.0 到 5.18 的内核都有这个网卡的内核驱动程序。
+
