@@ -77,7 +77,7 @@
 
 属于开箱即用的网卡。
 
-说明 <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
+QCA6174 802.11ac Wireless Network Adapter <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
 
 内核版本 4.0 到 5.18 以及 以上 的内核 都有 这个网卡的 内核驱动程序。
 
