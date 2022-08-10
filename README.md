@@ -79,8 +79,6 @@
 
 **QCA6174 802.11ac Wireless Network Adapter** <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
 
-内核版本 4.0 到 5.18 以及 以上 的内核 都有 这个网卡的 内核驱动程序。
-
 ### 声卡
 
 05:00.1 音频设备。Advanced Micro Devices, Inc. [AMD/ATI] Renoir Radeon高清晰度音频控制器
