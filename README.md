@@ -77,7 +77,7 @@
 
 属于开箱即用的网卡。
 
-QCA6174 802.11ac Wireless Network Adapter <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
+**QCA6174 802.11ac Wireless Network Adapter** <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
 
 内核版本 4.0 到 5.18 以及 以上 的内核 都有 这个网卡的 内核驱动程序。
 
@@ -95,7 +95,7 @@ QCA6174 802.11ac Wireless Network Adapter <https://linux-hardware.org/index.php?
 
 `05:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller`
 
-Advanced Micro Devices https://en.wikipedia.org/wiki/Advanced_Micro_Devices
+**Advanced Micro Devices**  https://en.wikipedia.org/wiki/Advanced_Micro_Devices
 
 ACP/ACP3X/ACP6x Audio Coprocessor https://linux-hardware.org/?id=pci:1022-15e2-1028-09e3
 
