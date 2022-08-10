@@ -95,4 +95,4 @@
 
 `05:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller`
 
-Advanced Micro Devices (https://en.wikipedia.org/wiki/Advanced_Micro_Devices)
+Advanced Micro Devices https://en.wikipedia.org/wiki/Advanced_Micro_Devices
