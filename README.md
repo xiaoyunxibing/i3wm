@@ -81,3 +81,17 @@
 
 内核版本 4.0 到 5.18 以及 以上 的内核 都有 这个网卡的 内核驱动程序。
 
+### 声卡
+
+05:00.1 音频设备。Advanced Micro Devices, Inc. [AMD/ATI] Renoir Radeon高清晰度音频控制器
+
+`05:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Renoir Radeon High Definition Audio Controller`
+
+05:00.5 多媒体控制器。Advanced Micro Devices, Inc. [AMD] ACP/ACP3X/ACP6x音频协处理器(rev 01)
+
+`05:00.5 Multimedia controller: Advanced Micro Devices, Inc. [AMD] ACP/ACP3X/ACP6x Audio Coprocessor (rev 01)`
+
+05:00.6 音频设备。Advanced Micro Devices, Inc. [AMD] 家族17h/19h高清音频控制器
+
+`05:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller`
+
