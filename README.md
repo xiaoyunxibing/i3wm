@@ -75,7 +75,7 @@
 
 `Network controller: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter`
 
-属于开箱即用的网卡驱动。
+属于开箱即用的网卡。
 
 说明 <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
 
@@ -96,3 +96,7 @@
 `05:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller`
 
 Advanced Micro Devices https://en.wikipedia.org/wiki/Advanced_Micro_Devices
+
+ACP/ACP3X/ACP6x Audio Coprocessor https://linux-hardware.org/?id=pci:1022-15e2-1028-09e3
+
+属于开箱即用的声卡。
