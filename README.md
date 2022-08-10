@@ -97,6 +97,6 @@
 
 **Advanced Micro Devices**  https://en.wikipedia.org/wiki/Advanced_Micro_Devices
 
-ACP/ACP3X/ACP6x Audio Coprocessor https://linux-hardware.org/?id=pci:1022-15e2-1028-09e3
-
 属于开箱即用的声卡。
+
+**ACP/ACP3X/ACP6x Audio Coprocessor** https://linux-hardware.org/?id=pci:1022-15e2-1028-09e3
