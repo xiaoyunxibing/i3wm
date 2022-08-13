@@ -119,5 +119,26 @@ timedatectl set-ntp true
 
 ### 4. 使用 cfdisk 进行分区
 
+`cfdisk /dev/你的磁盘`
 
+### 5. 分区方案
 
+EFI 分区 : 800M
+
+根目录 : 剩下的空间
+
+### 6. 查看磁盘并进行格式化操作
+
+`lsblk`
+
+`mkfs.fat -F32 /dev/你的 efi 分区`
+
+`mkfs.ext4 /dev/你的根目录`
+
+### 7. 挂载分区
+
+`mount /dev/你的根目录 /mnt`
+
+`mkdir /mnt/boot`
+
+`mount /dev/你的efi分区 /mnt/boot`
