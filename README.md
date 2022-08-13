@@ -155,3 +155,17 @@ EFI 分区 : 800M
 
 `ParallelDownloads = 5` 在 /etc/pacman.d/mirrorlist 里把注释去掉。开启多线程下载
 
+### 9. 如果本地主密钥无法签署其他密钥
+
+说明 https://archlinux.org/news/gnupg-21-and-the-pacman-keyring/
+
+`pacman -Syu haveged`
+
+`systemctl start haveged`
+
+`rm -fr /etc/pacman.d/gnupg`
+
+`pacman-key --init`
+
+`pacman-key --populate archlinux`
+
