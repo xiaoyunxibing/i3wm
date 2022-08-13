@@ -101,4 +101,23 @@
 
 ## Arch Linux 安装
 
-教程参考 https://arch.icekylin.online/rookie/pre-install.html 和 https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/basic_install
+教程参考 https://arch.icekylin.online/rookie/pre-install.html 和 https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/basic_install 和 https://wiki.archlinux.org/title/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) 和 https://www.php.cn/blog/detail/35327.html
+
+### 1. 禁用 reflector 服务
+
+`systemctl stop reflector.service`
+
+手机共享 usb 网络给电脑。
+
+### 2. 更新系统时钟
+
+timedatectl set-ntp true
+
+### 3. 查看磁盘
+
+`fdisk -l`
+
+### 4. 使用 cfdisk 进行分区
+
+
+
