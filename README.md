@@ -111,7 +111,7 @@
 
 ### 2. 更新系统时钟
 
-timedatectl set-ntp true
+`timedatectl set-ntp true`
 
 ### 3. 查看磁盘
 
