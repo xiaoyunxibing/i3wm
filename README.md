@@ -142,3 +142,16 @@ EFI 分区 : 800M
 `mkdir /mnt/boot`
 
 `mount /dev/你的efi分区 /mnt/boot`
+
+### 8. 选择镜像源
+
+`vim /etc/pacman.d/mirrorlist`
+
+`Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch # 中国科学技术大学开源镜像站` 放到首行
+
+`pacman -Syu`
+
+`pacman -S archlinux-keyring`
+
+`ParallelDownloads = 5` 在 /etc/pacman.d/mirrorlist 里把注释去掉。开启多线程下载
+
