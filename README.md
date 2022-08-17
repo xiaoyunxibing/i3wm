@@ -14,27 +14,27 @@
 
 # arch壁纸里有 4 张 1920x1080 分辨率的壁纸。
 
-### 1.png
+## 1.png
 
 ![1.png](https://github.com/xiaoyunxibing/i3wm/blob/main/arch%E5%A3%81%E7%BA%B8/1.png)
 
-### 2.jpg
+## 2.jpg
 
 ![2.jpg](https://github.com/xiaoyunxibing/i3wm/blob/main/arch%E5%A3%81%E7%BA%B8/2.jpg)
 
-### 3.jpg
+## 3.jpg
 
 ![3.jpg](https://github.com/xiaoyunxibing/i3wm/blob/main/arch%E5%A3%81%E7%BA%B8/3.jpg)
 
-### 4.png
+## 4.png
 
 ![4.png](https://github.com/xiaoyunxibing/i3wm/blob/main/arch%E5%A3%81%E7%BA%B8/4.png)
 
-## 电脑硬件情况
+# 电脑硬件情况
 
 名称：联想 小新Air 14 2020款(R5-4600U/16GB/512GB)
 
-### 处理器
+## 处理器
 
 处理器：AMD锐龙5 4600U
 
@@ -48,18 +48,18 @@
 
 三级缓存：L3 8M
 
-### 运行内存
+## 运行内存
 内存容量：16GB
 
 内存类型：DDR4
 
-### 存储设备
+## 存储设备
 
 硬盘类型：SSD固态硬盘
 
 硬盘容量：512GB SSD
 
-### 显示屏
+## 显示屏
 
 屏幕尺寸：14英寸
 
@@ -69,7 +69,7 @@
 
 显示屏描述：16:9比例,宽屏,IPS屏,DC调光无屏闪，100%sRGB，300nits
 
-### 显示卡
+## 显示卡
 
 显卡类型：集成显卡
 
@@ -81,7 +81,7 @@
 
 `lspci`
 
-### 网络控制器：高通创锐讯QCA6174 802.11ac无线网络适配器
+## 网络控制器：高通创锐讯QCA6174 802.11ac无线网络适配器
 
 `Network controller: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter`
 
@@ -89,7 +89,7 @@
 
 **QCA6174 802.11ac Wireless Network Adapter** <https://linux-hardware.org/index.php?id=pci:168c-003e-1a56-143a>
 
-### 声卡
+## 声卡
 
 05:00.1 音频设备。Advanced Micro Devices, Inc. [AMD/ATI] Renoir Radeon高清晰度音频控制器
 
@@ -109,7 +109,7 @@
 
 **ACP/ACP3X/ACP6x Audio Coprocessor** https://linux-hardware.org/?id=pci:1022-15e2-1028-09e3
 
-## Arch Linux 安装
+# Arch Linux 安装
 
 教程参考 https://arch.icekylin.online/rookie/pre-install.html 和 https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/basic_install 和 https://wiki.archlinux.org/title/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) 和 https://www.php.cn/blog/detail/35327.html
 
