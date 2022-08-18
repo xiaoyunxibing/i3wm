@@ -2,9 +2,9 @@
 
 [项目说明](#项目说明)
 
-[i3wm 的评价](#i3wm的评价)
+[i3wm的评价](#i3wm的评价)
 
-[i3wm 官网](#i3wm官网)
+[i3wm官网](#i3wm官网)
 
 [壁纸](#arch壁纸里有4张1920x1080分辨率的壁纸。)
 
@@ -12,13 +12,13 @@
 
 [免驱动的硬件](#免驱动的硬件)
 
-[Arch Linux 安装](#ArchLinux安装)
+[ArchLinux安装](#ArchLinux安装)
 
 # 项目说明
 
 我的 i3wm 配置
 
-# i3wm 的评价
+# i3wm的评价
 
 ## 优点
 
@@ -32,21 +32,21 @@ i3wm 速度很快。它既不冗杂、也不花哨。它的设计简单而高效
 
 配置麻烦。
 
-# i3wm 官网
+# i3wm官网
 
 https://i3wm.org/
 
-## i3wm 官网文档
+## i3wm官网文档
 
 https://i3wm.org/docs/
 
-## i3wm 简体中文使用说明书
+## i3wm简体中文使用说明书
 
 https://github.com/zjuyk/i3wm-userguide-zh
 
 https://zjuyk.site/i3wm-userguide-zh/
 
-# arch 壁纸里有 4 张 1920x1080 分辨率的壁纸
+# arch壁纸里有4张1920x1080分辨率的壁纸
 
 ## 1.png
 
@@ -111,7 +111,7 @@ https://zjuyk.site/i3wm-userguide-zh/
 
 # 免驱动的硬件
 
-## Linux 查看网卡型号、驱动版本
+## Linux查看网卡型号、驱动版本
 
 用于打印（“列表”）有关系统中所有PCI总线和设备的详细信息。
 
@@ -145,7 +145,7 @@ https://zjuyk.site/i3wm-userguide-zh/
 
 **ACP/ACP3X/ACP6x Audio Coprocessor** https://linux-hardware.org/?id=pci:1022-15e2-1028-09e3
 
-# Arch Linux 安装
+# ArchLinux安装
 
 教程参考 https://arch.icekylin.online/rookie/pre-install.html 和 https://archlinuxstudio.github.io/ArchLinuxTutorial/#/rookie/basic_install 和 https://wiki.archlinux.org/title/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) 和 https://www.php.cn/blog/detail/35327.html
 
