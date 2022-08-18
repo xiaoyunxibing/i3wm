@@ -30,6 +30,18 @@ i3wm 速度很快。它既不冗杂、也不花哨。它的设计简单而高效
 
 配置麻烦。
 
+# i3wm 官网
+
+https://i3wm.org/
+
+## i3wm 官网文档
+
+https://i3wm.org/docs/
+
+## i3wm 简体中文使用说明书
+
+https://github.com/zjuyk/i3wm-userguide-zh
+
 # arch 壁纸里有 4 张 1920x1080 分辨率的壁纸
 
 ## 1.png
