@@ -42,6 +42,8 @@ https://i3wm.org/docs/
 
 https://github.com/zjuyk/i3wm-userguide-zh
 
+https://zjuyk.site/i3wm-userguide-zh/
+
 # arch 壁纸里有 4 张 1920x1080 分辨率的壁纸
 
 ## 1.png
