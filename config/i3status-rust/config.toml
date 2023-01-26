@@ -1,0 +1,46 @@
+theme = "solarized-dark"
+
+icons = "awesome"
+
+# 聚焦窗口
+[[block]]
+block = "focused_window"
+max_width = 50
+show_marks = "visible"
+
+# 网络管理器
+[[block]]
+block = "networkmanager"
+on_click = "alacritty -e sudo nmtui"
+interface_name_exclude = ['br\-[0-9a-f]{12}', 'docker\d+']
+interface_name_include = []
+ap_format = "{ssid} {strength}"
+device_format = "{icon} {ap}"
+
+# 背光
+[[block]]
+block = "backlight"
+minimum = 15
+maximum = 100
+step_width = 1
+invert_icons = true
+format = "{brightness:6#100} {brightness}"
+
+# 声音
+[[block]]
+block = "sound"
+step_width = 1
+format = "{volume:5#110} {volume:01}"
+
+# 电池
+[[block]]
+block = "battery"
+interval = 1
+driver = "upower"
+format = "{percentage:6#100} {percentage} {time}"
+
+# 时间
+[[block]]
+block = "time"
+format = "%F %A %R"
+interval = 1

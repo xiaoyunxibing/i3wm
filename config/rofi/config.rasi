@@ -1,0 +1,9 @@
+configuration {
+	/* 配置显示类型 */
+	modi: "window,run,ssh,drun";
+    /* 配置是否支持icon以及icon主题 */
+	show-icons: true;
+        icon-theme: "WhiteSur-dark";
+	drun-icon-theme: "WhiteSur-dark";
+}
+@theme "/home/qq/.local/share/rofi/themes/nord.rasi"
