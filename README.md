@@ -643,7 +643,6 @@ exec --no-startup-id dunst & # 桌面通知
 exec --no-startup-id copyq & # 剪切板管理器
 exec --no-startup-id pa-notify & # 音量通知
 exec --no-startup-id volctl & # PulseAudio 的每个应用程序系统托盘小程序音量控制
-exec --no-startup-id pulseaudio & # 声卡管理
 
 # 启动i3bar以显示工作区栏（加上系统信息i3status
 # 发现，如果有的话)
