@@ -713,7 +713,7 @@ format = "{volume:5#110} {volume:01}"
 block = "battery"
 interval = 1
 driver = "upower"
-format = "{percentage:6#100} {percentage} {time}"
+format = "{percentage:6#100} {percentage}"
 
 # 时间
 [[block]]
