@@ -318,9 +318,9 @@ Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 
 # 安装软件
 
-`pacman -S --needed xorg-server sudo vim xorg-xinit git i3-wm alacritty linux-headers yay networkmanager amd-ucode mesa lib32-mesa xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon fcitx5-im fcitx5-chinese-addons libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau i3status-rust adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra npm zsh neovim xclip neofetch ttf-dejavu ttf-fira-code ttf-jetbrains-mono pulseaudio ttf-font-awesome upower alsa-utils alsa-plugins sof-firmware alsa-ucm-conf v2ray v2raya-git chromium rofi xfce4-screenshooter dunst curl ttf-hack-nerd feh lsd ranger lxappearance pulseaudio-alsa pasystray fcitx5-nord icalingua++ python-bidi ffmpeg highlight atool lynx calibre jq mpv ffmpegthumbnailer pygmentize bat unrar w3m elinks xdg-utils p7zip ueberzug i3lock screenkey slop obs-studio jre-openjdk jdk-openjdk openjdk-doc openjdk-src java-openjfx java-openjfx-doc java-openjfx-src python-pip cmake dunst copyq arc-icon-theme ttf-nerd-fonts-symbols-2048-em ttf-iosevka-nerd`
+`pacman -S --needed xorg-server sudo vim xorg-xinit git i3-wm alacritty linux-headers yay networkmanager amd-ucode mesa lib32-mesa xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon fcitx5-im fcitx5-chinese-addons libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau i3status-rust adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra npm zsh neovim xclip neofetch ttf-dejavu ttf-fira-code ttf-jetbrains-mono pulseaudio ttf-font-awesome upower alsa-utils alsa-plugins sof-firmware alsa-ucm-conf v2ray v2raya-git chromium rofi xfce4-screenshooter dunst curl ttf-hack-nerd feh lsd ranger lxappearance pulseaudio-alsa pasystray fcitx5-nord icalingua++ python-bidi ffmpeg highlight atool lynx calibre jq mpv ffmpegthumbnailer pygmentize bat unrar w3m elinks xdg-utils p7zip ueberzug i3lock screenkey slop obs-studio jre-openjdk jdk-openjdk openjdk-doc openjdk-src java-openjfx java-openjfx-doc java-openjfx-src python-pip cmake dunst copyq arc-icon-theme ttf-nerd-fonts-symbols-2048-em ttf-iosevka-nerd pulseaudio pavucontrol`
 
-`yay -S google-chrome visual-studio-code-bin visual-studio-code-insiders-bin clash-for-windows-bin whitesur-icon-theme whitesur-gtk-theme whitesur-cursor-theme-git picom-jonaburg-git rofi-power-menu`
+`yay -S google-chrome visual-studio-code-bin visual-studio-code-insiders-bin clash-for-windows-bin whitesur-icon-theme whitesur-gtk-theme whitesur-cursor-theme-git picom-jonaburg-git rofi-power-menu volctl pa-notify`
 
 # 无线网络
 
@@ -641,6 +641,9 @@ exec --no-startup-id pasystray & # 声卡管理
 exec --no-startup-id picom --experimental-backends -b # 启动 picom
 exec --no-startup-id dunst & # 桌面通知
 exec --no-startup-id copyq & # 剪切板管理器
+exec --no-startup-id pa-notify & # 音量通知
+exec --no-startup-id volctl & # PulseAudio 的每个应用程序系统托盘小程序音量控制
+exec --no-startup-id pulseaudio & # 声卡管理
 
 # 启动i3bar以显示工作区栏（加上系统信息i3status
 # 发现，如果有的话)
