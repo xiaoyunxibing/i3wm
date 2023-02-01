@@ -644,6 +644,7 @@ exec --no-startup-id copyq & # 剪切板管理器
 exec --no-startup-id pa-notify & # 音量通知
 exec --no-startup-id volctl & # PulseAudio 的每个应用程序系统托盘小程序音量控制
 exec --no-startup-id psensor & # 启动温度管理
+exec --no-startup-id thunar --daemon & # 启动thunar
 exec --no-startup-id poweralertd & # 电池通知
 
 # 启动i3bar以显示工作区栏（加上系统信息i3status
